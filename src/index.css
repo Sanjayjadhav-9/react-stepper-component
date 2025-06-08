@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+body {
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.active .step-number {
+  @apply bg-[#007bff] text-white;
+}
+
+.complete .step-number {
+  @apply bg-[#28a745] text-white;
+}
